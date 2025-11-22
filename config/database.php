@@ -1,9 +1,9 @@
 <?php
 class Database {
-    private $host = "10.217.4.115";
-    private $db_name = "stockflow_system"; // Sesuaikan nama DB
-    private $username = "ohmuser";
-    private $password = ""; // Sesuaikan password
+    private $host = "xxx.xxx.xxx.xxx";
+    private $db_name = "your_db"; // Sesuaikan nama DB
+    private $username = "your_user";
+    private $password = "your_password"; // Sesuaikan password
     public $conn;
 
     public function getConnection() {
